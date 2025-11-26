@@ -1,4 +1,3 @@
-
 # ReservationKisújBearer REST API Dokumentáció
 
 A dokumentáció a **fakestoreapi.com** mintájára készült.
@@ -248,7 +247,7 @@ Ha a foglalás nem a userhez tartozik vagy nem admin → **403 Forbidden**.
 
 **Foglalás teljes módosítása**
 
-Ugyanazok a szabályok, mint a POST esetén.
+Foglalás teljes módosítása
 
 **Válasz:**
 
@@ -320,4 +319,4 @@ User csak a sajátját törölheti.
 
 ---
 
-A dokumentáció teljes terjedelmében kész. Ha szeretnéd, exportálhatom PDF-be vagy bővíthetem példákkal.
+
