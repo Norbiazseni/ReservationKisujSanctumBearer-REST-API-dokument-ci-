@@ -13,11 +13,11 @@ Az API autentikációhoz **Bearer Token** szükséges. A tokent a `/login` végp
 ---
 
 ## Végpontok:
-A `Content-Type` és az `Accept` headerkulcsok mindig `application/json` formátumúak legyenek.
 
-Érvénytelen vagy hiányzó token esetén a backendnek `401 Unauthorized` választ kell visszaadnia:
+Érvénytelen vagy hiányzó token esetén a backendnek a következő hibát kell adnia:
+
 ```json
-Response: 401 Unauthorized
+Response: 200 Unauthorized
 {
   "message": "Invalid token"
 }
