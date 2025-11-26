@@ -17,7 +17,7 @@ Az API autentikációhoz **Bearer Token** szükséges. A tokent a `/login` végp
 Érvénytelen vagy hiányzó token esetén a backendnek a következő hibát kell adnia:
 
 ```json
-Response: 200 Unauthorized
+Response: 401 Unauthorized
 {
   "message": "Invalid token"
 }
