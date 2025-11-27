@@ -10,6 +10,7 @@ A dokumentáció a **fakestoreapi.com** mintájára készült.
 
 Az API autentikációhoz **Bearer Token** szükséges. A tokent a `/login` végpont adja vissza.
 
+Adatbázis neve: reservationKisuj
 ---
 
 ## Végpontok:
