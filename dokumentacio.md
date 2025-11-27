@@ -30,7 +30,7 @@ Response: 401 Unauthorized
 
 ### Hibák:
 - 400 Bad Request: Hibás formátum
-- 401 Unauthorized: Nincs jogosultság. 
+- 401 Unauthorized: Nem hitelesített, nincs jogosultság
 - 403 Forbidden: A felhasználó nem jogosult a kérés végrehajtására. 
 - 404 Not Found: Nem található a kérés.
 - 503 Service Unavailable: Váratlan hiba, nem elérhető.
